@@ -25,7 +25,7 @@ cd Emotion-detection
   * `emotions.py` (file)
   * `haarcascade_frontalface_default.xml` (file)
 
-* This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
+* This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 61.08% in 50 epochs.
 
 ![Accuracy plot](images/trainVal.png)
 
