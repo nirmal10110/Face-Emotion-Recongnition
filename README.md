@@ -17,21 +17,18 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 ```bash
 git clone https://github.com/nirmal10110/Face-Emotion-Detection.git
-cd Emotion-detection
+cd Face-Emotion-Recognition
 ```
 
 * The folder structure is of the form:  
   src:
+  * `ModelWeight/face_emotion_model.h5` (weights file)
   * `emotions.py` (file)
   * `haarcascade_frontalface_default.xml` (file)
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 61.08% in 50 epochs.
 
 ![Accuracy plot](images/trainVal.png)
-
-## Data Preparation (optional)
-
-* The [original FER2013 dataset in Kaggle](https://www.kaggle.com/deadskull7/fer2013) is available as a single csv file. I had converted into a dataset of images in the PNG format for training/testing and provided this as the dataset in the previous section.
 
 
 ## Algorithm
